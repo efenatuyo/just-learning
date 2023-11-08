@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+  // Add your code below 
+  double miles;
+  std::cout << "Enter the amount of miles you wanna convert: ";
+  std::cin >> miles;
+  std::cout << "The amount of kilometers would be: " << miles * 1.60934;
+
+}
